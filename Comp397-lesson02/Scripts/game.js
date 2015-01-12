@@ -8,5 +8,7 @@
     return Player;
 })();
 
-var tom = new Player();
-tom.fights();
+function main() {
+    var tom = new Player();
+    tom.fights();
+}
